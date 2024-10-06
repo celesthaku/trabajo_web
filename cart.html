@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Mi Tienda Electrónica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="cart.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Productos en tu Carrito</h2>
+            <div class="cart-item">
+                <p>Producto 1 - Cantidad: 1 - Precio Total: $100</p>
+            </div>
+            <div class="cart-item">
+                <p>Producto 2 - Cantidad: 2 - Precio Total: $300</p>
+            </div>
+            <!-- Puedes agregar más productos del carrito de la misma manera -->
+        </section>
+
+        <section>
+            <h3>Información de Envío</h3>
+            <form>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
+                
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Dirección" required>
+                
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+                
+                <button type="submit">Realizar Compra</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mi Tienda Electrónica</p>
+    </footer>
+</body>
+</html>
